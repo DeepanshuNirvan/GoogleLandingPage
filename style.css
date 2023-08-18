@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navlist{
+    margin-left:86%;
+    align-items: center;
+    display:flex;
+}
+li{
+    padding: 7px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.account{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.main{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.searchbox{
+    margin-top: 30px;
+    display: flex;
+    border:1px solid rgb(192, 188, 188);
+    border-radius:25px;
+    align-items:center;
+    width: 40%;
+    height:30px;
+    padding: 10px;
+}
+.search{
+    font-size: 18px;
+    width:100%;
+    height:100%;
+    border:none;
+    outline: none;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+}
+.buttons{
+    display: flex;
+}
+.grey{
+    margin: 20px;
+    width: 150px;
+    height: 34px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(246, 240, 240, 0.986);
+}
+grey:hover{
+    border: 1px solid grey;
+}
+.lang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.langlist{
+    font-size: 14px;
+    color: rgb(22, 22, 191);
+    align-items: center;
+    display: flex;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height:12vh;
+}
+.country{
+    color: rgb(115, 115, 115);
+    height: 50%;
+    width: 100%;
+    background-color: rgb(240, 239, 237);
+}
+.service{
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+.fbox{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(240, 239, 237);
+}
+.footlist{
+    list-style-type: none;
+    color: rgb(115, 115, 115);
+    display: flex;
+}
+.ralg{
+    position: absolute;
+    right: 0;
+}
+#ind{
+    margin-left:20px;
+    margin-bottom: 20px;
+}
